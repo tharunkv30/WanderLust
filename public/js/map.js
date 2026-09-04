@@ -1,7 +1,7 @@
 mapboxgl.accessToken = mapToken;
 const map = new mapboxgl.Map({
   accessToken:
-    "pk.eyJ1IjoidGhhcnVuNzc3IiwiYSI6ImNtdGw2dWpqaDAwOHczNHF3NmNlZXVveXIifQ.N0JD6626-EA1_Jo_q8vDrw",
+    mapToken,
   container: "map", // container ID
   center: coordinates, // starting position [lng, lat]. Note that lat must be set between -90 and 90
   zoom: 10, // starting zoom
